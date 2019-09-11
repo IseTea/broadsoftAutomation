@@ -15,11 +15,11 @@ userNames = ["4803394877", "3463277892"]
 #Enters UserID
 elem = driver.find_element_by_name("EnteredUserID")
 elem.clear()
-elem.send_keys("tpierce")
+elem.send_keys("INSERTUSERNAMEHERE")
 #Enters Password and logs in
 elem = driver.find_element_by_name("Password")
 elem.clear()
-elem.send_keys("Lilt56Liev%^")
+elem.send_keys("INSERTPASSWORDHERE")
 elem.send_keys(Keys.RETURN)
 ##ADMIN LOGIN END##
 
