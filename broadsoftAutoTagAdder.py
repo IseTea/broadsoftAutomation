@@ -17,9 +17,9 @@ elem.clear()
 elem.send_keys("INSERTADMINUSERNAMEHERE")
 
 #Enters Password and logs in
-elem = driver.find_element_by_name("INSERTADMINPASSWORDHERE")
+elem = driver.find_element_by_name("TOBEFIXED")
 elem.clear()
-elem.send_keys("Lilt56Liev%^")
+elem.send_keys("INSERTADMINPASSWORDHERE")
 elem.send_keys(Keys.RETURN)
 
 #Loops through groupNames list
